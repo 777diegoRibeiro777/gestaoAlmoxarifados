@@ -1,0 +1,121 @@
+// input {
+//   padding: 7px;
+//   align-items: center;
+//   gap: 10px;
+//   border-radius: 8px;
+//   border: 1px solid var(--Grey-200, #e3e6eb);
+//   outline: none;
+// }
+
+.dadosPrincipais {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+input[disabled],
+select[disabled] {
+  background-color: #f7f7f7;
+  color: black;
+}
+
+.urgente:checked {
+  background-color: #ff0000;
+}
+
+.medio:checked {
+  background-color: #ffff00;
+}
+
+.baixo:checked {
+  background-color: #00ff00;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+tr,
+td {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #3a3c40;
+}
+th {
+  background-color: #f7f7f7;
+  text-align: center;
+  font-weight: 700;
+}
+
+.excluir {
+  color: red;
+  cursor: pointer;
+}
+
+.box-total {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.input-total {
+  width: 8rem;
+  height: 1.5rem;
+}
+
+.input-total {
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.chkPrioridade {
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.prioridades {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid #050607;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 700px) {
+  table {
+    width: 100%;
+    font-size: 1rem;
+  }
+  th,
+  td {
+    padding: 5px;
+    font-size: 0.8rem;
+  }
+  .codigo,
+  .descricao,
+  .qtd,
+  .un,
+  .preco {
+    max-width: auto;
+  }
+  .total {
+    width: 50px;
+  }
+}

@@ -1,0 +1,23 @@
+.input-text {
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .rounded {
+    td,
+    tr,
+    th {
+      padding: 2px !important;
+    }
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .rounded {
+    td,
+    tr,
+    th {
+      font-size: 1rem !important;
+    }
+  }
+}

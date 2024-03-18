@@ -1,0 +1,96 @@
+@import "./colors";
+.btn {
+  display: inline-block;
+  color: $white-light;
+  padding: 8px 24px;
+  background: #5390e3;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 0;
+  transition: all 600ms ease;
+  font-weight: 500;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.btnGreen {
+  display: inline-block;
+  color: $white-light;
+  padding: 8px 24px;
+  background: $green-normal;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 0;
+  transition: all 600ms ease;
+  font-weight: 500;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.btnRed {
+  display: inline-block;
+  color: $white-light;
+  padding: 8px 24px;
+  background: $red-dark;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 0;
+  transition: all 600ms ease;
+  font-weight: 500;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.btn-secondary {
+  display: inline-block;
+  color: $white-light;
+  padding: 8px 24px;
+  background: $white-light;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 0;
+}
+
+.btn-login {
+  padding: 12px 24px;
+}
+
+a {
+  text-decoration: none;
+
+  @include typeface-2(p3, desktop);
+  color: $black-normal;
+  transition: 0.3s ease;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+input {
+  accent-color: $yellow-dark;
+}
+
+select,
+option {
+  height: 48px;
+}
+
+input,
+select,
+option,
+textarea {
+  padding: 10px 12px;
+  background-color: $white-light;
+
+  border-radius: 8px;
+
+  border: 1px solid #747474;
+  width: 100%;
+
+  color: $black-dark;
+
+  @include typeface-2(p3, desktop);
+}

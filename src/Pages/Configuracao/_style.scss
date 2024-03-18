@@ -1,0 +1,40 @@
+.titleConfig {
+  margin: 30px 0;
+}
+
+.cardProduto {
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: #f0eeee;
+  padding: 20px;
+  margin: 0 250px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.inputEmail {
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  border-radius: 15px;
+  transition: all linear 160ms;
+  outline: none;
+  height: 50px;
+}
+
+.inputEmail:focus {
+  border: 1px solid #00aeff;
+}
+
+.salvarConfig {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .cardProduto {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
